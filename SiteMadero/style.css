@@ -11,6 +11,11 @@ body {
     line-height: 1.6rem;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
 h1 {
     display: flex;
     padding: 20px;
@@ -22,13 +27,14 @@ section {
 
 img {
     margin-top: 30px;
+    width: 30%;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
     gap: 5rem;
-    margin-left: 5rem;
+    padding: 20px;
 }
 
 .nav-links a {
@@ -40,6 +46,10 @@ img {
 
 .nav-links a:hover {
     color: #D5C06B;
+}
+
+#menu ul {
+    padding-inline: 30px;
 }
 
 .tabela-clientes {
@@ -86,6 +96,6 @@ footer {
     border-top: 1px solid #D5C06B;
     background-color: #121212;
     text-align: center;
-    padding: 3rem;
+    padding: 2.5rem;
     margin-top: 4rem;
 }
